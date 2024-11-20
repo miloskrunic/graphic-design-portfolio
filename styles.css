@@ -131,3 +131,10 @@ h2{
 .lightbox.active {
     display: flex;
 }
+
+@media (max-width: 768px) {
+    h1, h2 {
+        font-size: 2rem; /* Manja veličina fonta na ekranima manjim od 768px */
+        letter-spacing: 10px; /* Manji razmak između slova */
+    }
+}
