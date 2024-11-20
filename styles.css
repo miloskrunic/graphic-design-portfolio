@@ -132,9 +132,13 @@ h2{
     display: flex;
 }
 
-@media (max-width: 768px) {
-    h1, h2 {
+@media (max-width: 1081px) {
+    h1 {
         font-size: 2rem; /* Manja veličina fonta na ekranima manjim od 768px */
         letter-spacing: 10px; /* Manji razmak između slova */
+    }
+    h2 {
+        font-size: 1.5rem; /* Manja veličina fonta na ekranima manjim od 768px */
+        letter-spacing: 0px; /* Manji razmak između slova */
     }
 }
