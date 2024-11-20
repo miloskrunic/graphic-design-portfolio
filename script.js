@@ -17,8 +17,8 @@ lightbox.addEventListener('click', () => {
   lightboxImg.src = ''; 
 });
 
-const text = "Miloš Krunić"; // Tekst koji želiš da se kuca
-const speed = 200; // Brzina kucanja (milisekunde po slovu)
+const text = "I AM  MILOŠ"; // Tekst koji želiš da se kuca
+const speed = 300; // Brzina kucanja (milisekunde po slovu)
 let index = 0;
 
 function typeEffect1() {
