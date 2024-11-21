@@ -1,6 +1,5 @@
 body {
     margin: 0;
-    font-family: oddlini;
     background-color: #2d2d2d;
     color: #222;
     padding:20px;
@@ -127,7 +126,7 @@ h6{
 /* Galerija */
 .gallery {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
     gap: 60px;
     position: relative;
     z-index: 2;
