@@ -1,0 +1,20 @@
+body {
+    margin: 0;
+    font-family: oddlini, sans-serif;
+    background-color: #2d2d2d;
+    color: #222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+}
+
+h1 {
+    color: white;
+    white-space: pre-wrap; /* Omogućava prelamanje teksta u novi red */
+    word-wrap: break-word; /* Sprečava da dug tekst izađe iz okvira */
+    text-align: center; /* Centriranje teksta */
+    font-size: 1.5rem; /* Možeš prilagoditi veličinu fonta */
+    max-width: 80%; /* Ograničava širinu, možeš promeniti po želji */
+}
