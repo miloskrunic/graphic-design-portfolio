@@ -1,12 +1,11 @@
-const text = `My name is Milos, and I'm 24 years old. 
-I'm a final-year student at the Faculty of Technical Sciences, majoring in Mechatronics. 
-I'm ambitious, sociable, and reliable, with a strong passion for creative problem-solving. 
-I've been working as a freelance graphic designer since high school, which has allowed me to develop both my technical skills and my ability to adapt to different clients and projects. 
-I enjoy working on innovative and visually impactful designs, and I'm constantly exploring new tools and techniques to improve my craft. 
-In addition to design, I have a keen interest in technology and engineering, which helps me approach challenges with a unique perspective. 
-My goal is to combine my technical background and creative expertise to create meaningful and effective solutions.`;
+const text = `My name is Miloš, a 24-year-old final-year Mechatronics student at the Faculty of Technical Sciences.
+    I'm ambitious, sociable, and reliable, with a passion for creative problem-solving.
+    Since high school, I’ve worked as a freelance graphic designer, honing my technical skills and adaptability to diverse clients and projects. 
+    I enjoy crafting innovative, visually impactful designs while exploring new tools and techniques to enhance my craft.
+    With a strong interest in technology and engineering, I bring a unique perspective to challenges. 
+    My goal is to blend my technical background and creativity to deliver meaningful, effective solutions.`;
 
-const speed = 50; // Brzina kucanja
+const speed = 50;
 let index = 0;
 
 function typeEffect1() {
@@ -16,8 +15,8 @@ function typeEffect1() {
         index++;
         setTimeout(typeEffect1, speed);
     } else {
-        typingElement.style.borderRight = "none"; // Uklanja kursor nakon završetka
+        typingElement.style.borderRight = "none";
     }
 }
 
-window.onload = typeEffect1; // Pokreće kucanje kada se stranica učita
+window.onload = typeEffect1;

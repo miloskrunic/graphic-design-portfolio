@@ -17,23 +17,23 @@ lightbox.addEventListener('click', () => {
   lightboxImg.src = ''; 
 });
 
-const text = "I AM  MILOŠ"; // Tekst koji želiš da se kuca
-const speed = 300; // Brzina kucanja (milisekunde po slovu)
+const text = "I AM  MILOŠ";
+const speed = 300;
 let index = 0;
 
 function typeEffect1() {
-    const typingElement = document.getElementById("typing"); // Povezuje se sa h1 ID-jem
+    const typingElement = document.getElementById("typing");
     if (index < text.length) {
-        typingElement.textContent += text.charAt(index); // Dodaje jedno po jedno slovo
+        typingElement.textContent += text.charAt(index);
         index++;
-        setTimeout(typeEffect1, speed); // Nastavlja sledeće slovo nakon pauze
+        setTimeout(typeEffect1, speed);
     } else {
-        typingElement.style.borderRight = "none"; // Uklanja kursor nakon završetka
+        typingElement.style.borderRight = "none";
     }
 }
 
 
 window.onload = function() {
-  window.scrollTo(0, 0); // Pomera stranicu na vrh
-  typeEffect1(); // Pokreće prvo kucanje teksta
+  window.scrollTo(0, 0);
+  typeEffect1();
 };
