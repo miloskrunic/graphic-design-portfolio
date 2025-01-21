@@ -3,9 +3,9 @@ const text = `My name is Miloš, a 24-year-old final-year Mechatronics student a
     Working as a freelance graphic designer since high school has helped me improve my skills and adapt to various clients and projects.
     I love creating visually striking designs while constantly exploring new tools and techniques to enhance my work.
     With a strong interest in technology and engineering, I approach challenges from a different perspective.
-    My goal is to blend my technical background and creativity to deliver meaningful, effective solutions.`;
+    My goal is to blend my technical background and creativity to deliver meaningful and effective solutions.`;
 
-const speed = 20;
+const speed = 15;
 let index = 0;
 
 function typeEffect1() {
