@@ -1,11 +1,11 @@
-const text = `My name is Miloš, a 24-year-old final-year Mechatronics student at the Faculty of Technical Sciences.
-    I'm ambitious, sociable, and reliable, with a passion for creative problem-solving.
-    Since high school, I’ve worked as a freelance graphic designer, honing my technical skills and adaptability to diverse clients and projects. 
-    I enjoy crafting innovative, visually impactful designs while exploring new tools and techniques to enhance my craft.
-    With a strong interest in technology and engineering, I bring a unique perspective to challenges. 
+const text = `My name is Miloš, a 24-year-old final-year Mechatronics student at the Faculty of Technical Sciences in Novi Sad, Serbia.
+    I'm an ambitious and reliable person who enjoys finding creative solutions to problems.
+    Working as a freelance graphic designer since high school has helped me improve my skills and adapt to various clients and projects.
+    I love creating visually striking designs while constantly exploring new tools and techniques to enhance my work.
+    With a strong interest in technology and engineering, I approach challenges from a different perspective.
     My goal is to blend my technical background and creativity to deliver meaningful, effective solutions.`;
 
-const speed = 50;
+const speed = 20;
 let index = 0;
 
 function typeEffect1() {
